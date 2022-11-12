@@ -7,7 +7,7 @@ const Ourteam = () => {
     <>
     <Navbar/>
 
-    <div className="client">
+    <div className=" client-2">
         <img src="" alt="" />
         <div className="client-row">
           <h1>Our Team Members</h1>
