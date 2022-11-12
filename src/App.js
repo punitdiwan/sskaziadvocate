@@ -1,23 +1,51 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Contact from './Components/Contact';
+import Home from './Components/Home';
+import CivilLitigation from './Components/CivilLitigation ';
+import Disclamer from './Components/Disclamer';
+import Property from './Components/Property';
+import RealEstate from './Components/RealEstate';
+import Registration from './Components/Registration';
+import Revenue from './Components/Revenue';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Ourteam from './Components/Ourteam';
+import Navbar from './Components/Navbar';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      <BrowserRouter>
+      {/* <Navbar/> */}
+      {/* <Ourteam/> */}
+      
+      <Routes>
+       <Route path="/" element={ <Home/>} />
+       <Route path='/civillitigation' element={<CivilLitigation/>} />
+       <Route path='/realestate' element={<RealEstate/>}/>
+       <Route path='/property' element={<Property/>}/>
+       <Route path='/registration' element={<Registration/>} />
+       <Route path='/revenue' element={<Revenue/>}/>
+       <Route path='/ourteam' element={<Ourteam/>} />
+       <Route path="/disclamer" element={<Disclamer/>} />
+       <Route path="/contact" element={<Contact/> } />
+
+      </Routes>
+      </BrowserRouter>
+         
+         {/* <Contact/> */}
+         {/* <Home/> */}
+        
+         {/* <CivilLitigation/> */}
+         {/* <Disclamer/> */}
+         {/* <Footer/> */}
+         {/* <Property/> */}
+         {/* <RealEstate/> */}
+         {/* <Registration/> */}
+         {/* <Revenue/> */}
+         
     </div>
   );
 }
