@@ -18,7 +18,8 @@ const Home = () => {
 >
   <div className="carousel-inner">
     <div className="carousel-item active">
-      {/* <!-- <div className="d-block w-100 img-1"></div> --> */}
+
+      {/* <div className="img-1"></div> */}
 
       <img
         src="img/slide-1.jpeg"
@@ -27,20 +28,21 @@ const Home = () => {
       />
       <div className="img-slide-content">
         <h1>We Are Best Law Firm Since 1999</h1>
-        <p>Expert in Property Law | Real Estate Law | Lawyers in Pune</p>
+        <p>Expert in Criminal matters | Civil matters | Lawyers in Mumbai</p>
         <a href="">Contact With Us</a>
       </div>
     </div>
     <div className="carousel-item">
-      {/* <!-- <div className="d-block w-100 img-2"></div> --> */}
+
+       {/* <div className="img-2"></div>  */}
       <img
-        src="img/slide-2.jpeg"
+        src="img/slide-3.jpeg"
         className="d-block w-100"
         alt="..."
       />
       <div className="img-slide-content">
         <h1>Committed Helping Our Clients Succeed</h1>
-        <p>Expert in Property Law | Real Estate Law | Lawyers in Pune</p>
+        <p>Expert in Constitutional matters| Service matters | Lawyers in Mumbai</p>
         <Link to="/contact">Contact With Us</Link>
       </div>
     </div>

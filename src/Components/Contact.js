@@ -6,6 +6,15 @@ const Contact = () => {
   return (
     <>
     <Navbar/>
+
+    <div className="client-2">
+        <img src="" alt="" />
+        <div className="client-row">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+
+
    <div className="contact">
      <div className="contact-row">
      <div className="contact-col-1">

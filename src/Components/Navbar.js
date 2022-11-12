@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
+  const[show,setShow] = useState(true)
+  const[down,setDown] = useState(true)
   return (
     <>
-      {/* <!-- ---------------address-bar---------------- --> */}
+      {/* <!-- -----------address-bar------------- --> */}
 
       <div className="address">
-        <div><i className=" top-menu fa-solid fa-bars"></i> </div>
         <div className="address-row">
           <div className="address-col-left">
             <div className="col-left">
@@ -56,53 +57,59 @@ const Navbar = () => {
               <img src="img/adv.sskazi-logo.jpeg" alt="" />
             </a>
           </div>
-          <div className="navbar-col-r">
+          <i class=" menu-icon fa-solid fa-bars" onClick={()=>setShow(!show)}></i>
+          {
+            show ? (<div className="navbar-col-r">
+          
             <ul>
-              <li>
+              <li className="m-top-main">
                 <Link to="/">HOME</Link>
               </li>
-              <li>
-                <Link to="/civillitigation">
-                  OUR SERVICES<i className="fas fa-caret-down"></i>
+              <li className="m-top-main">
+                <Link to="">
+                  OUR SERVICES<i class=" drop-icon fa-solid fa-plus" onClick={()=>setDown(!down)}></i>
                 </Link>
-                <div className="dropdown-navbar">
-                  <ul>
-                    <li>
-                      <Link to="/civillitigation">CIVIL MATTERS LAWYER</Link>
-                    </li>
-                    <li>
-                      <Link to="/realestate">
-                        REAL ESTATE ACQUISITION LAWYER
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/property">PROPERTY LAWYER</Link>
-                    </li>
-                    <li>
-                      <Link to="/registration">
-                        REGISTRATION & CONVEYANCE LAWYER
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/revenue">REVENUE LITIGATTION LAWYER</Link>
-                    </li>
-                  </ul>
-                </div>
+               {
+                down? ( <div className="dropdown-navbar" >
+                <ul >
+                  <li>
+                    <Link to="/civillitigation">CIVIL MATTERS LAWYER</Link>
+                  </li>
+                  <li>
+                    <Link to="/realestate">
+                      REAL ESTATE ACQUISITION LAWYER
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/property">PROPERTY LAWYER</Link>
+                  </li>
+                  <li>
+                    <Link to="/registration">
+                      REGISTRATION & CONVEYANCE LAWYER
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/revenue">REVENUE LITIGATTION LAWYER</Link>
+                  </li>
+                </ul>
+              </div>) : ""
+               }
               </li>
-              <li>
+              <li className="m-top-main">
                 <Link to="/ourteam">OUR TEAM</Link>
               </li>
-              <li>
+              <li className="m-top-main">
                 <Link to="/disclamer">DISCLAIMER</Link>
               </li>
-              <li>
+              <li className="m-top-main">
                 <Link to="/contact">CONTACT</Link>
               </li>
-              <li className="consult-bg">
+              <li className="consult-bg m-top-main">
                 <Link to="/contact">Consult now</Link>
               </li>
             </ul>
-          </div>
+          </div>) : ''
+          }
         </div>
       </div>
 

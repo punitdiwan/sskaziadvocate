@@ -42,10 +42,10 @@ const Footer = () => {
  <div className="policy" id='footer-policy'>
   <div className="policy-row">
   <div className="policy-col">
-    <p>Copyright © 2022  Adv. S.S. KAZI</p>
+    <p>Copyright © Adv. S.S. KAZI</p>
    </div>
    <div className="policy-col">
-    <p>Design and Promoted by <a href="https://maitretech.com/">maitretech.com</a>
+    <p>Design with <i class="fa-sharp fa-solid fa-heart"></i> by <a href="https://maitretech.com/">maitretech.com</a>
     </p>
  </div>
   </div>

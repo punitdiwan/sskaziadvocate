@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+
 import './App.css';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
@@ -10,17 +10,16 @@ import Registration from './Components/Registration';
 import Revenue from './Components/Revenue';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Ourteam from './Components/Ourteam';
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 function App() {
   return (
     <div className="App">
-     
       <BrowserRouter>
       {/* <Navbar/> */}
-      {/* <Ourteam/> */}
-      
+      <ScrollToTop/>
       <Routes>
        <Route path="/" element={ <Home/>} />
        <Route path='/civillitigation' element={<CivilLitigation/>} />
@@ -31,20 +30,8 @@ function App() {
        <Route path='/ourteam' element={<Ourteam/>} />
        <Route path="/disclamer" element={<Disclamer/>} />
        <Route path="/contact" element={<Contact/> } />
-
       </Routes>
       </BrowserRouter>
-         
-         {/* <Contact/> */}
-         {/* <Home/> */}
-        
-         {/* <CivilLitigation/> */}
-         {/* <Disclamer/> */}
-         {/* <Footer/> */}
-         {/* <Property/> */}
-         {/* <RealEstate/> */}
-         {/* <Registration/> */}
-         {/* <Revenue/> */}
          
     </div>
   );
