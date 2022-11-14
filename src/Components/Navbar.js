@@ -29,9 +29,9 @@ const Navbar = () => {
             </div>
             <div className="col-left">
               <span>
-                <i className="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-city"></i>
               </span>
-              <span>Sinhagad Road,Dhayari,Maharashtra</span>
+              <span>Advocate S S Kazi @ legalfighter</span>
             </div>
           </div>
           <div className="address-col-right">
@@ -65,7 +65,7 @@ const Navbar = () => {
               <li onClick={()=>setShow(!show)}>
                 <Link to="/">HOME</Link>
               </li>
-              <li >
+              <li onClick={()=>setDown(!down)}>
           
                 <Link to="">
                   OUR SERVICES <button className="drop-icon" onClick={()=>setDown(!down)}
@@ -73,27 +73,54 @@ const Navbar = () => {
                 </Link>
                {
                 down? ( <div className="dropdown-navbar" >
-                <ul   onClick={()=>setShow(!show)}>
+               <div className="drop-row">
+                  <div className="drop-col-1">
+                    <ul onClick={()=>setShow(!show)} >
                   <li>
-                    <Link to="/civillitigation">CIVIL MATTERS LAWYER</Link>
+                    <Link to="/constitutional">CONSTITUTIONAL MATTERS LAWYER</Link>
                   </li>
                   <li>
-                    <Link to="/realestate">
-                      REAL ESTATE ACQUISITION LAWYER
+                    <Link to="/civilmatters">
+                    CIVIL MATTERS LAWYER
                     </Link>
                   </li>
                   <li>
-                    <Link to="/property">PROPERTY LAWYER</Link>
+                    <Link to="/criminal">CRIMINAL MATTERS LAWYER</Link>
                   </li>
                   <li>
-                    <Link to="/registration">
-                      REGISTRATION & CONVEYANCE LAWYER
+                    <Link to="/legaldraft">ALL KIND OF LEGAL DRAFT LAWYER</Link>
+                  </li>
+                 
+                  <li>
+                    <Link to="/revenue">REVENUE MATTERS LAWYER</Link>
+                  </li>
+                </ul></div>
+                <div className="drop-col-2">
+                  <ul onClick={()=>setShow(!show)} >
+                  <li>
+                    <Link to="/arbitration">ARBITRATION MATTERS LAWYER</Link>
+                  </li>
+                  <li>
+                    <Link to="/landlaw">
+                     LAND LAW MATTERS LAWYER
                     </Link>
                   </li>
                   <li>
-                    <Link to="/revenue">REVENUE LITIGATTION LAWYER</Link>
+                    <Link to="/services">
+                    SERVICE MATTER LAWYER
+                    </Link>
                   </li>
-                </ul>
+                 
+                  <li>
+                    <Link to="/publictrust">
+                    PUBLIC TRUST MATTER LAWYER
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/moreservices">MORE SERVICES...</Link>
+                  </li>
+                </ul></div>
+                </div>
               </div>) : ""
                }
               </li>
@@ -131,34 +158,59 @@ const Navbar = () => {
               <li>
                 <Link to="/">HOME</Link>
               </li>
-              <li>
+              <li onClick={()=>setDown(!down)}>
                 <Link to="">
                   OUR SERVICES<button className="drop-icon-pc" onClick={()=>setDown(!down)}
                  >{down ? <i class=" drop-icon fa-solid fa-minus"></i> :<i class=" drop-icon fa-solid fa-plus"></i>}</button>
                 </Link>
                {
                 down? ( <div className="dropdown-navbar" >
-                <ul >
+                <div className="drop-row">
+                  <div className="drop-col-1"><ul >
                   <li>
-                    <Link to="/civillitigation">CIVIL MATTERS LAWYER</Link>
+                    <Link to="/constitutional">CONSTITUTIONAL MATTERS LAWYER</Link>
                   </li>
                   <li>
-                    <Link to="/realestate">
-                      REAL ESTATE ACQUISITION LAWYER
+                    <Link to="/civilmatters">
+                    CIVIL MATTERS LAWYER
                     </Link>
                   </li>
                   <li>
-                    <Link to="/property">PROPERTY LAWYER</Link>
+                    <Link to="/criminal">CRIMINAL MATTERS LAWYER</Link>
                   </li>
                   <li>
-                    <Link to="/registration">
-                      REGISTRATION & CONVEYANCE LAWYER
+                    <Link to="/legaldraft">ALL KIND OF LEGAL DRAFT LAWYER</Link>
+                  </li>
+                 
+                  <li>
+                    <Link to="/revenue">REVENUE MATTERS LAWYER</Link>
+                  </li>
+                </ul></div>
+                <div className="drop-col-2"><ul >
+                  <li>
+                    <Link to="/arbitration">ARBITRATION MATTERS LAWYER</Link>
+                  </li>
+                  <li>
+                    <Link to="/landlaw">
+                     LAND LAW MATTERS LAWYER
                     </Link>
                   </li>
                   <li>
-                    <Link to="/revenue">REVENUE LITIGATTION LAWYER</Link>
+                    <Link to="/services">
+                    SERVICE MATTER LAWYER
+                    </Link>
                   </li>
-                </ul>
+                 
+                  <li>
+                    <Link to="/publictrust">
+                    PUBLIC TRUST MATTER LAWYER
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/moreservices">MORE SERVICES...</Link>
+                  </li>
+                </ul></div>
+                </div>
               </div>) : ""
                }
               </li>

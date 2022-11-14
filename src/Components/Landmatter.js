@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './Footer';
 import Navbar from './Navbar';
 
-const RealEstate = () => {
+const Landmatter = () => {
   return (
     <>
     <Navbar/>
@@ -13,12 +13,12 @@ const RealEstate = () => {
     alt="" class="bor-img"
   />
   <div class="real-estate-col">
-    <h4>Real Estate Acquisition Lawyer</h4>
-    <p>Adv S.S. KAZI and Associates is a law firm with a focus on Property Dispute litigation with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
-    <p>We are well known Real Estate Acquisition Lawyers in mumbai 
+    <h4>Matter’s pertaining to Land Laws   Lawyer</h4>
+    <p>Adv S.S. KAZI and Associates is a law firm with a focus on Land Law Matter with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
+    <p>We are well known Land Law Matter Lawyers in mumbai
     </p>
 
-    <img src="https://advganeshraykar.com/wp-content/uploads/elementor/thumbs/REAL-ESTATE-LAWYER-phxtwf1ktmef0k8a48dxvsriidhwg262m9spqigz2g.jpg" alt="" />
+    <img src="https://roofandfloor.thehindu.com/real-estate-blog/wp-content/uploads/sites/14/2019/03/Land-Laws-Across-India-840x480.jpg" alt="" />
   </div>
 
   <img
@@ -32,19 +32,17 @@ const RealEstate = () => {
       <img src="https://advganeshraykar.com/wp-content/uploads/2021/12/Court.png" alt="" />
     </div>
     <div class="land-col">
-      <p>We provide Advisory, Regulatory Compliance and Registration services for:</p>
+      <p>We provide Advisory, Regulatory Compliance and Land Law  services for:</p>
       <ul>
         <li>Land Laws & RERA advisory</li>
-        <li>Acquisition of land for industrial projects</li>
-        <li>Society Redevelopment projects
+        <li>Land law is the form of law that deals with the rights to use, alienate, or exclude others from land.</li>
+        <li>In many jurisdictions, these kinds of property are referred to as real estate or real property, as distinct from personal property.
         </li>
         <li>Acquiring of MIDC & Government lands
         </li>
-        <li>Apartment & Integrated township projects
+        <li>These kinds of property are referred to as real estate or real property, as distinct from personal property. 
         </li>
-        <li>Title Investigations & updating of Revenue records</li>
-        <li>Acquiring NA permissions</li>
-        
+        <li>Land use agreements, including renting, are an important intersection of property and contract law.</li>
       </ul>
     </div>
   </div>
@@ -56,4 +54,4 @@ const RealEstate = () => {
   )
 }
 
-export default RealEstate ;
+export default Landmatter ;

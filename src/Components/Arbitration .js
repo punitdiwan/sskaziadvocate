@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './Footer';
 import Navbar from './Navbar';
 
-const Registration = () => {
+const Arbitration= () => {
   return (
     <>
      
@@ -14,12 +14,12 @@ const Registration = () => {
     alt="" class="bor-img"
   />
   <div class="real-estate-col">
-    <h4>Registration & Conveyance</h4>
-    <p>Adv S.S. KAZI  and Associates is a law firm with a focus on Property Dispute litigation with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
-    <p>We are the best Registration & Conveyance  Lawyers in mumbai 
+    <h4>Arbitration Matters</h4>
+    <p>Adv S.S. KAZI  and Associates is a law firm with a focus on Arbitration Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
+    <p>We are the best Arbitration Matters  Lawyers in mumbai 
     </p>
 
-    <img src="https://advganeshraykar.com/wp-content/uploads/2021/12/Registration-Conveyance.jpg" alt="" />
+    <img src="https://www.vidhikarya.com/images/blog_images/Arbitration%20and%20Conciliation%20Act.jpg" alt="" />
   </div>
 
   <img
@@ -34,22 +34,17 @@ const Registration = () => {
     </div>
     <div class="land-col land-col-2">
       <p>
-        We provide Drafting of various types of agreements such as :</p>
+      Arbitration is a procedure in which a dispute is submitted, by agreement of the parties, to one or more arbitrators who make a binding decision on the dispute.
+      </p>
+      <p>
+      The following are the different types of arbitration as per the jurisdiction of the case:</p>
       <ul>
-        <li>Leave and License agreement</li>
-        <li>Partnership Deed</li>
-        <li>Sale Deed</li>
-        <li>Release Deed</li>
-        <li>Power of Attorney, Wills</li>
-        <li>Deemed Conveyance</li>
-        <li>Society registration</li>
-        <li>Development agreements</li>
-        <li>Engineering & Construction contracts
-        </li>
-        <li>Deed of Partition
-        </li>
-        <li>Rera Registration and</li>
-        <li>Various deeds & Contracts</li>
+        <li>Domestic arbitration. </li>
+        <li>International arbitration.</li>
+        <li>International commercial arbitration. </li>
+        <li>Ad-hoc Arbitration. </li>
+        <li>Fast track Arbitration. </li>
+        <li>Institutional Arbitration.</li>
         
       </ul>
     </div>
@@ -63,4 +58,4 @@ const Registration = () => {
   )
 }
 
-export default Registration ;
+export default Arbitration  ;
