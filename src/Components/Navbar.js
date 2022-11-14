@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
-  const[show,setShow] = useState(true)
-  const[down,setDown] = useState(true)
+  const[show,setShow] = useState(false);
+  const[down,setDown] = useState(false);
   return (
     <>
       {/* <!-- -----------address-bar------------- --> */}
@@ -48,26 +48,93 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* <!-- ---------------Navbar------------------- --> */}
+       {/* <!-- ----------Navbar-2------------- --> */}
 
-      <div className="navbar-law">
+       <div className="navbar-law mobile-sc">
         <div className="navbar-row">
           <div className="navbar-col-l">
             <a href="/">
               <img src="img/adv.sskazi-logo.jpeg" alt="" />
             </a>
-          </div>
-          <i class=" menu-icon fa-solid fa-bars" onClick={()=>setShow(!show)}></i>
-          {
-            show ? (<div className="navbar-col-r">
-          
-            <ul>
-              <li className="m-top-main">
+          </div>     
+          <button onClick={()=>setShow(!show)} className="menu-icon" >{show ? <i className="fa-solid fa-times"></i>: <i className=" menu-icon fa-solid fa-bars"></i>}
+          </button>
+
+          <div className={show ? "navbar-col-mobile" : "navbar-col-r"}>  
+            <ul  >
+              <li onClick={()=>setShow(!show)}>
                 <Link to="/">HOME</Link>
               </li>
-              <li className="m-top-main">
+              <li >
+          
                 <Link to="">
-                  OUR SERVICES<i class=" drop-icon fa-solid fa-plus" onClick={()=>setDown(!down)}></i>
+                  OUR SERVICES <button className="drop-icon" onClick={()=>setDown(!down)}
+                 >{down ? <i class=" drop-icon fa-solid fa-minus"></i> :<i class=" drop-icon fa-solid fa-plus"></i>}</button>
+                </Link>
+               {
+                down? ( <div className="dropdown-navbar" >
+                <ul   onClick={()=>setShow(!show)}>
+                  <li>
+                    <Link to="/civillitigation">CIVIL MATTERS LAWYER</Link>
+                  </li>
+                  <li>
+                    <Link to="/realestate">
+                      REAL ESTATE ACQUISITION LAWYER
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/property">PROPERTY LAWYER</Link>
+                  </li>
+                  <li>
+                    <Link to="/registration">
+                      REGISTRATION & CONVEYANCE LAWYER
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/revenue">REVENUE LITIGATTION LAWYER</Link>
+                  </li>
+                </ul>
+              </div>) : ""
+               }
+              </li>
+              <li   onClick={()=>setDown(!down)}>
+                <Link to="/ourteam">OUR TEAM</Link>
+              </li>
+              <li   onClick={()=>setDown(!down)}>
+                <Link to="/disclamer">DISCLAIMER</Link>
+              </li>
+              <li   onClick={()=>setDown(!down)}>
+                <Link to="/contact">CONTACT</Link>
+              </li>
+              <li className="consult-bg"  onClick={()=>setDown(!down)}>
+                <Link to="/contact">Consult now</Link>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+
+
+
+
+      <div className="navbar-law pc-sc" >
+        <div className="navbar-row">
+          <div className="navbar-col-l">
+            <a href="/">
+              <img src="img/adv.sskazi-logo.jpeg" alt="" />
+            </a>
+          </div>     
+        
+          <div className= "navbar-col-r">  
+            <ul>
+              <li>
+                <Link to="/">HOME</Link>
+              </li>
+              <li>
+                <Link to="">
+                  OUR SERVICES<button className="drop-icon-pc" onClick={()=>setDown(!down)}
+                 >{down ? <i class=" drop-icon fa-solid fa-minus"></i> :<i class=" drop-icon fa-solid fa-plus"></i>}</button>
                 </Link>
                {
                 down? ( <div className="dropdown-navbar" >
@@ -95,21 +162,21 @@ const Navbar = () => {
               </div>) : ""
                }
               </li>
-              <li className="m-top-main">
+              <li>
                 <Link to="/ourteam">OUR TEAM</Link>
               </li>
-              <li className="m-top-main">
+              <li>
                 <Link to="/disclamer">DISCLAIMER</Link>
               </li>
-              <li className="m-top-main">
+              <li>
                 <Link to="/contact">CONTACT</Link>
               </li>
               <li className="consult-bg m-top-main">
                 <Link to="/contact">Consult now</Link>
               </li>
             </ul>
-          </div>) : ''
-          }
+          </div>
+          
         </div>
       </div>
 
