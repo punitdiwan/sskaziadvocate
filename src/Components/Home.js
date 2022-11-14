@@ -107,7 +107,7 @@ const Home = () => {
       </div>
       <div className="year-exp">
         <h1>23</h1>
-        <p>Years of Experince</p>
+        <p>Years of Experience</p>
       </div>
       
     </div>
@@ -177,15 +177,15 @@ const Home = () => {
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
           alt="image note found"
         />
-        <h3>Civil Lawyer</h3>
+        <h3>Civil Matters  Lawyer</h3>
         <p>
-          We are Civil lawyers in Pune. with a focus on civil and corporate
+          We are Civil lawyers in Mumbai. with a focus on civil and corporate
           litigation. young and well-qualified team of lawyers, expertise in
           various areas of law.
         </p>
-        <div className="a-1">
+        {/* <div className="a-1">
           <a href="/">Read More</a>
-        </div>
+        </div> */}
       </div>
 
       <div className="area-col">
@@ -193,39 +193,37 @@ const Home = () => {
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img5.png"
           alt="image note found"
         />
-        <h3>Revenue Litigation Lawyer</h3>
+        <h3>Constitutional Matters  Lawyer</h3>
         <p>
-          We provides a complete expert counsel for Land Revenue matters in
-          Pune
+        Focus on Constitutional Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law
         </p>
         <br />
-        <div className="a-2"><a href="/">Read More</a></div>
+        {/* <div className="a-2"><a href="/">Read More</a></div> */}
       </div>
       <div className="area-col">
         <img
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
           alt="image note found"
         />
-        <h3>Real Estate Lawyer</h3>
+        <h3>Land Matters  Lawyer</h3>
         <p>
-          We are Real Estate Acquisition Lawyers in Pune. Land Laws & RERA
+          We are Real Estate Acquisition Lawyers in Mumbai. Land Laws & RERA
           advisory, Acquisition of land for industrial projects
         </p>
-        <div className="a-3">
+        {/* <div className="a-3">
           <a href="/">Read More</a>
-        </div>
+        </div> */}
       </div>
       <div className="area-col">
         <img
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img6.png"
           alt="image note found"
         />
-        <h3>Registration & Conveyance Lawyer</h3>
+        <h3>Criminal Matters  Lawyer</h3>
         <p>
-          Registration & Conveyance Lawyer in Pune.comprehensive drafting
-          and registration services.
+         Focus on Criminal matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law
         </p>
-        <div className="a-4"><a href="/">Read More</a></div>
+        {/* <div className="a-4"><a href="/">Read More</a></div> */}
       </div>
     </div>
   </div>

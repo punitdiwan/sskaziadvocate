@@ -243,6 +243,19 @@ padding: 10px 0;
 
 .dropdown-navbar{
     display: none;
+    margin-top: 10px;
+}
+.drop-row{
+    display: flex;
+    align-items: flex-start;
+}
+.drop-col-1{
+    margin-left: -150px;
+    border-right: 1px solid gray;
+}
+.drop-col-2{
+    margin-left: -57px;
+    
 }
 .navbar-col-r ul li .dropdown-navbar{
     display: block;
@@ -281,6 +294,17 @@ padding: 10px 0;
         position: relative;
         z-index: 5;
         left: 10%;
+    }
+    .drop-row{
+        flex-direction: column;
+    }
+    .drop-col-1{
+        margin-left: 0;
+        border-right: none;
+    }
+    .drop-col-2{
+        margin-left: 0;
+        
     }
     .navbar-col-mobile ul li .dropdown-navbar ul li{
         padding: 2px 0px;
@@ -326,7 +350,13 @@ padding: 10px 0;
 }  */
 @media (max-width:850px){
     .carousel-item img{
-        height: 70vh;
+        height: 83vh;
+        
+    }
+}
+@media (max-width:500px){
+    .carousel-item img{
+        height: 86vh;
         
     }
 }
@@ -526,6 +556,7 @@ padding: 10px 0;
 }
 
 
+
 @media (max-width: 1000px) {
     .year-exp{
     width: 300px;
@@ -542,6 +573,33 @@ padding: 10px 0;
         right: -300px;
         top: -240px;
     }
+}
+@media (max-width:600px) {
+    .year-exp{
+        width: 150px;
+        height: 100px;
+        right: -170px;
+        top: -200px;
+    }
+    .year-exp h1{
+        padding-top: 0.4rem;
+    }
+    .year-exp p{
+        margin-top: -15px;
+    }
+    
+}
+
+@media (max-width:360px) {
+   
+    .year-exp{
+        right: -100px;
+        top: -200px;
+    }
+    .year-exp h1{
+        padding-top: 0.1rem;
+    }
+    
 }
 
 .advocate-col{
@@ -654,15 +712,7 @@ padding: 10px 0;
         width: 300px;
         border-radius: 10px ;
     }
-    .year-exp{
-        width: 150px;
-        height: 100px;
-        right: -170px;
-        top: -200px;
-    }
-    .year-exp h1{
-        padding-top: 0.1rem;
-    }
+  
     
 }
 
@@ -671,15 +721,7 @@ padding: 10px 0;
         width: 250px;
         border-radius: 10px ;
     }
-    .year-exp{
-        width: 150px;
-        height: 100px;
-        right: -100px;
-        top: -200px;
-    }
-    .year-exp h1{
-        padding-top: 0.1rem;
-    }
+  
     
 }
 
@@ -721,7 +763,7 @@ padding: 10px 0;
     
 }
 .area-col{
-    flex-basis: 23%;
+    flex-basis: 24%;
     background-color: #ffffff73;
     border-radius:10px;
     margin-bottom:5%;
@@ -749,7 +791,8 @@ padding: 10px 0;
     color: #161940;
     font-weight: 600;
 }
-.area-col a{
+
+/* .area-col a{
     text-decoration: none;
     font-size: 14px;
     color: #ffffff;
@@ -760,6 +803,7 @@ padding: 10px 0;
     position: relative;
     position: absolute;
     z-index: 1;
+
 }
 .area-col a:hover{
     background-color: #161940;
@@ -776,11 +820,12 @@ padding: 10px 0;
 }
 .area-col .a-4 a{
     left: 77.5%;
-} 
+} */
 
 .area-col:hover{
     box-shadow:0 0 20px 0 rgba(0,0,0,0.2)
-}
+} 
+
 @media (max-width:1250px){
     .area{
         margin-top: 0px;
@@ -794,7 +839,8 @@ padding: 10px 0;
     .area-content{
         width:60vw;
      }
-     .area-col .a-1 a{
+
+     /* .area-col .a-1 a{
         left: 25%;
     }
     .area-col .a-2 a{
@@ -805,7 +851,7 @@ padding: 10px 0;
     }
     .area-col .a-4 a{
         left: 67%;
-    } 
+    }  */
 }
 @media (max-width:1200px){
     .area{
@@ -827,7 +873,7 @@ padding: 10px 0;
     .area-content{
         width:80vw;
      }
-     .area-col .a-1 a{
+     /* .area-col .a-1 a{
         left: 44%;
     }
     .area-col .a-2 a{
@@ -838,7 +884,7 @@ padding: 10px 0;
     }
     .area-col .a-4 a{
         left: 44%;
-    }
+    } */
 }
 
 @media (max-width:750px){
@@ -853,7 +899,7 @@ padding: 10px 0;
     .area-content h2{
         font-size: 28px;
     }
-    .area-col .a-1 a{
+    /* .area-col .a-1 a{
         left: 42%;
     }
     .area-col .a-2 a{
@@ -864,9 +910,9 @@ padding: 10px 0;
     }
     .area-col .a-4 a{
         left: 42%;
-    }
+    } */
 }
-@media (max-width:550px){
+/* @media (max-width:550px){
     .area-col .a-1 a{
         left: 38%;
     }
@@ -879,8 +925,8 @@ padding: 10px 0;
     .area-col .a-4 a{
         left: 38%;
     }
-}
-@media (max-width:450px){
+} */
+/* @media (max-width:450px){
     .area-col .a-1 a{
         left: 35%;
     }
@@ -893,7 +939,7 @@ padding: 10px 0;
     .area-col .a-4 a{
         left: 35%;
     }
-}
+} */
 
 /* -----------submit call back request------- */
 
@@ -1309,12 +1355,11 @@ label{
 
 @media (max-width:1000PX) {
     .contact-row{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .contact-col-1{
         width: 100vw;
         margin: auto;
-        margin-top: 80px;
         text-align: center;
         padding: 50px 0px;
     }
@@ -1330,7 +1375,8 @@ label{
     }
     .contact-col-2{
         width: 80vw;
-        margin: 50px auto;  
+        margin: 50px auto; 
+        margin-top: 100px; 
     }
     .input-row{
         flex-direction: column;  
@@ -1354,6 +1400,7 @@ label{
     margin: auto;
     background-color: #181A32f7;
     padding: 50px 0;
+    margin-top: 50px;
 }
 .footer-row{
     width: 90vw;
@@ -1377,6 +1424,13 @@ label{
     font-size: 15px;
     margin-bottom: 10px;
     line-height: 22px;
+}
+
+.footer-icon a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #e64609;
+    margin-right: 20px;
 }
 
 @media (max-width:1150px) {
@@ -1541,7 +1595,7 @@ label{
     width: 80vw;
     margin: auto;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .real-estate .bor-img{
@@ -1616,6 +1670,12 @@ li::marker{
 @media (max-width:450px) {
     .land-col img{
         width: 350px;
+    } 
+
+}
+@media (max-width:310px) {
+    .land-col img{
+        width: 250px;
     } 
 
 }
@@ -1954,4 +2014,31 @@ li::marker{
     .team-col-1-p{
         width: 60vw;
     }
+}
+
+/* -----------------------Otherscss------------ */
+
+.civil-col-3 img{
+  width: 500px;
+  height: 350px;
+}
+
+@media (max-width:550px) {
+    .civil-col-3 img{
+        width: 400px;
+        height: 300px;
+      }
+}
+
+@media (max-width:450px) {
+    .civil-col-3 img{
+        width: 300px;
+        height: 250px;
+      }
+}
+@media (max-width:300px) {
+    .civil-col-3 img{
+        width: 200px;
+        height: 250px;
+      }
 }

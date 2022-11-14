@@ -31,6 +31,17 @@ const Footer = () => {
       <p>S.S. KAZI, 2nd Floor, Yasmeen Complex, Opposite MBC Bank, City Chowk, Buddi lane, Naralibag, Aurangabad, Maharashtra,india 431001</p>
       <p>Contact Number - +91 9890903544 </p>
       <p>Phone Number -  02402-324134 </p>
+      <div className='footer-icon'> 
+      <a href="https://www.facebook.com/shahu.kazi.3">
+              <i className="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/advsskazi2/status/1591317421931266051?s=48&t=9AH-0kOh-XOvdb6Jrc2Gmg">
+            <i className="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/watch?v=9TzmxdIU5fE">
+              <i className="fa-brands fa-youtube"></i>
+            </a>
+      </div>
     </div>
 
     <div className="footer-col">
