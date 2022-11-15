@@ -11,17 +11,10 @@ const Home = () => {
 
 {/* <!-- -----------image-slider------------- --> */}
 
-<div
-  id="carouselExampleFade"
-  className="carousel slide carousel-fade"
-  data-bs-ride="carousel"
->
-  <div className="carousel-inner">
-    <div className="carousel-item active slide-4">
-
-      {/* <div className="img-1"></div> */}
-
-      <img
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active slide-4" data-bs-interval="3000">
+    <img
         src="img/slide-1.jpeg"
         className="d-block w-100"
         alt="..."
@@ -29,13 +22,11 @@ const Home = () => {
       <div className="img-slide-content">
         <h1>We Are Best Law Firm Since 1999</h1>
         <p>Expert in Criminal matters | Civil matters | Lawyers in Mumbai</p>
-        <a href="">Contact With Us</a>
+        <Link to="/contact">Contact With Us</Link>
       </div>
     </div>
-    <div className="carousel-item slide-4">
-
-       {/* <div className="img-2"></div>  */}
-      <img
+    <div class="carousel-item slide-4" data-bs-interval="3000">
+    <img
         src="img/slide-3.jpeg"
         className="d-block w-100"
         alt="..."
@@ -46,41 +37,31 @@ const Home = () => {
         <Link to="/contact">Contact With Us</Link>
       </div>
     </div>
-    <div className="carousel-item slide-4">
-
-      <img
+    <div class="carousel-item slide-4"  data-bs-interval="2000">
+    <img
         src="img/slide-4.jpeg"
         className="d-block w-100"
         alt="..."
       />
     </div>
-    <div className="carousel-item slide-4">
-      <img
+    <div class="carousel-item slide-4" data-bs-interval="2000">
+    <img
         src="img/slide-5.jpeg"
         className="d-block w-100 "
         alt="..."
       />
     </div>
   </div>
-  <button
-    className="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleFade"
-    data-bs-slide="prev"
-  >
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
   </button>
-  <button
-    className="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleFade"
-    data-bs-slide="next"
-  >
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 {/* <!-- -----------court-performance------------ --> */}
 
@@ -190,7 +171,7 @@ const Home = () => {
       <div className="area-col">
         <img
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
-          alt="image note found"
+          alt="not load..."
         />
         <h3>Civil Matters  Lawyer</h3>
         <p>
@@ -206,7 +187,7 @@ const Home = () => {
       <div className="area-col">
         <img
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img5.png"
-          alt="image note found"
+          alt="not load..."
         />
         <h3>Constitutional Matters  Lawyer</h3>
         <p>
@@ -218,7 +199,7 @@ const Home = () => {
       <div className="area-col">
         <img
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
-          alt="image note found"
+          alt="not load..."
         />
         <h3>Land Matters  Lawyer</h3>
         <p>
@@ -232,7 +213,7 @@ const Home = () => {
       <div className="area-col">
         <img
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img6.png"
-          alt="image note found"
+          alt="not load..."
         />
         <h3>Criminal Matters  Lawyer</h3>
         <p>
@@ -307,6 +288,8 @@ const Home = () => {
     <h1>What our Clients Say</h1>
   </div>
 </div>
+
+
 
 <div
   id="carouselExampleCaptions"
