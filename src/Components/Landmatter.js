@@ -15,7 +15,7 @@ const Landmatter = () => {
   <div class="real-estate-col">
     <h4>Matter’s pertaining to Land Laws   Lawyer</h4>
     <p>Adv S.S. KAZI and Associates is a law firm with a focus on Land Law Matter with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
-    <p>We are well known Land Law Matter Lawyers in mumbai
+    <p>We are well known Land Law Matter Lawyers in Aurangabad, Maharashtra.
     </p>
 
     <img src="https://roofandfloor.thehindu.com/real-estate-blog/wp-content/uploads/sites/14/2019/03/Land-Laws-Across-India-840x480.jpg" alt="" />

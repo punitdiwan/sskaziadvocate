@@ -15,7 +15,7 @@ const Legaldraft = () => {
         <div class="real-estate-col">
           <h4>All kinds of Legal draft Matters Lawyer</h4>
           <p>
-          Advocate S.S. KAZI & Associates is a All kinds of Legal draft Matters Lawyers law firm in mumbai,with a focus on All kinds of Legal draft Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Civil Matters lawyers in mumbai
+          Advocate S.S. KAZI & Associates is a All kinds of Legal draft Matters Lawyers law firm in Aurangabad, with a focus on All kinds of Legal draft Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Civil Matters lawyers in Aurangabad, Maharashtra.
           </p>
 
           <img
@@ -44,7 +44,7 @@ const Legaldraft = () => {
             Legal drafting is a method of creating well-structured documents such as petitions, memorandums, contracts, wills, statutes, etc that are legally binding on the parties to such documents
             </p>
             <ul>
-              <li>List of important Legal Documents</li>
+              <li>List of important Legal Documents.</li>
               <li>Business Associate Agreement.</li>
               <li>Partnership Agreement.</li>
               <li>Franchisee and Trademark Assignment Agreement.</li>
@@ -56,9 +56,9 @@ const Legaldraft = () => {
               <li>
               NON Disclosure Agreement.
               </li>
-              <li>Civil matters relating to property </li>
+              <li>Civil matters relating to property. </li>
               <li>
-              Leave and Licence Agreement
+              Leave and Licence Agreement.
               </li>
             </ul>
           </div>

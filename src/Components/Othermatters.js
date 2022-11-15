@@ -23,8 +23,8 @@ const Othermatters = () => {
             <p>
               Advocate S.S. KAZI & Associates being one of the top law firms
               provides a complete Legal Services and expert counselor for Family
-              disputes matters in Mumbai. We are the best Family disputes
-              Matters Lawyers in mumbai
+              disputes matters in Aurangabad. We are the best Family disputes
+              Matters Lawyers in Aurangabad, Maharashtra .
             </p>
             <ul>
               <li>
@@ -41,7 +41,7 @@ const Othermatters = () => {
               </li>
               <li>
                 This can include: within families, such as between couples,
-                parents and children, siblings.{" "}
+                parents and children, siblings.
               </li>
             </ul>
           </div>
@@ -72,8 +72,8 @@ const Othermatters = () => {
             <p>
               Advocate S.S. KAZI & Associates being one of the top law firms
               provides a complete Legal Services and expert counselor for Family
-              matters in Mumbai. We are the best Family matters Lawyers in
-              mumbai
+              matters in Aurangabad. We are the best Family matters Lawyers in
+              Aurangabad, Maharashtra .
             </p>
             <ul>
               <li>
@@ -86,7 +86,7 @@ const Othermatters = () => {
               <li>Maintenance, Custody of children.</li>
               <li>
                 Enhancement of maintenance all matters related to Hindu Law ,
-                Mohammadan law etc
+                Mohammadan law etc.
               </li>
             </ul>
           </div>
@@ -117,8 +117,8 @@ const Othermatters = () => {
             <p>
               Advocate S.S. KAZI & Associates being one of the top law firms
               provides a complete Legal Services and expert counselor for Wakf
-              Property matters in Mumbai. We are the best Wakf Property matters
-              Lawyers in mumbai
+              Property matters in Aurangabad. We are the best Wakf Property matters
+              Lawyers in Aurangabad, Maharashtra.
             </p>
             <ul>
               
@@ -157,8 +157,8 @@ const Othermatters = () => {
             <p>
               Advocate S.S. KAZI & Associates being one of the top law firms
               provides a complete Legal Services and expert counselor for Labour
-              laws matters in Mumbai. We are the best Labour laws matters
-              Lawyers in mumbai
+              laws matters in Aurangabad. We are the best Labour laws matters
+              Lawyers in Aurangabad, Maharashtra.
             </p>
             <p>
               Matter of labour law can be considered under nine broad heads:
@@ -213,8 +213,8 @@ const Othermatters = () => {
             <p>
               Advocate S.S. KAZI & Associates being one of the top law firms
               provides a complete Legal Services and expert counselor for
-              Personal laws in Mumbai. We are the best Personal laws matters
-              Lawyers in mumbai
+              Personal laws in Aurangabad. We are the best Personal laws matters
+              Lawyers in Aurangabad, Maharashtra.
             </p>
             <p>
               Personal law is defined as a law that applies to a certain class
@@ -264,7 +264,7 @@ const Othermatters = () => {
             <p>
               Advocate S.S. KAZI & Associates being one of the top law firms
               provides a complete Legal Services and expert counselor for
-              Directorate of Enforcement in Mumbai. We are the best  Directorate of Enforcement matters Lawyers in mumbai
+              Directorate of Enforcement in Aurangabad. We are the best  Directorate of Enforcement matters Lawyers in Aurangabad, Maharashtra.
             </p>
            <p>The Directorate of Enforcement is a multi-disciplinary organization mandated with investigation of offence of money laundering.</p>
             <ul>

@@ -16,7 +16,7 @@ const Arbitration= () => {
   <div class="real-estate-col">
     <h4>Arbitration Matters</h4>
     <p>Adv S.S. KAZI  and Associates is a law firm with a focus on Arbitration Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
-    <p>We are the best Arbitration Matters  Lawyers in mumbai 
+    <p>We are the best Arbitration Matters  Lawyers in Aurangabad, Maharashtra. 
     </p>
 
     <img src="https://www.vidhikarya.com/images/blog_images/Arbitration%20and%20Conciliation%20Act.jpg" alt="" />

@@ -20,7 +20,7 @@ const Revenue = () => {
     <div class="civil">  
         <div class="civil-row">
             <div class="civil-col civil-col-1">
-                <p>Advocate S.S. KAZI & Associates being one of the top law firms provides a complete Legal Services and expert counselor for Revenue matters in Mumbai. We are the best Revenue Matters Lawyers in mumbai</p>
+                <p>Advocate S.S. KAZI & Associates being one of the top law firms provides a complete Legal Services and expert counselor for Revenue matters in Aurangabad. We are the best Revenue Matters Lawyers in Aurangabad, Maharashtra .</p>
                 <ul>
                 <li>Revenue Matters is squarely focused on growing asset value for client properties through an "Integrated Revenue Strategy.
                     </li>

@@ -15,25 +15,27 @@ const Home = () => {
   <div class="carousel-inner">
     <div class="carousel-item active slide-4" data-bs-interval="3000">
     <img
-        src="img/slide-1.jpeg"
+        src="img/slide-3.jpeg"
         className="d-block w-100"
         alt="..."
       />
+   
       <div className="img-slide-content">
-        <h1>We Are Best Law Firm Since 1999</h1>
-        <p>Expert in Criminal matters | Civil matters | Lawyers in Mumbai</p>
+        <h1>We Are Best Law Firm Since 1999 at Aurangabad</h1>
+        <p>Expert in Criminal matters | Civil matters | Constitutional matters | Arbitration matters | Service Matters </p>
         <Link to="/contact">Contact With Us</Link>
       </div>
     </div>
     <div class="carousel-item slide-4" data-bs-interval="3000">
     <img
-        src="img/slide-3.jpeg"
+        src="img/slide-1.jpeg"
         className="d-block w-100"
         alt="..."
       />
+   
       <div className="img-slide-content">
         <h1>Committed Helping Our Clients Succeed</h1>
-        <p>Expert in Constitutional matters| Service matters | Lawyers in Mumbai</p>
+        <p>WE Are Expert Lawyers in Aurangabad,Maharashtra </p>
         <Link to="/contact">Contact With Us</Link>
       </div>
     </div>
@@ -175,9 +177,7 @@ const Home = () => {
         />
         <h3>Civil Matters  Lawyer</h3>
         <p>
-          We are Civil lawyers in Mumbai. with a focus on civil and corporate
-          litigation. young and well-qualified team of lawyers, expertise in
-          various areas of law.
+          We are Civil lawyers in Aurangabad. with a focus on civil and corporate litigation. young and well-qualified team of lawyers, expertise in various areas of law.
         </p>
         {/* <div className="a-1">
           <a href="/">Read More</a>
@@ -189,9 +189,9 @@ const Home = () => {
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img5.png"
           alt="not load..."
         />
-        <h3>Constitutional Matters  Lawyer</h3>
+        <h3>Constitutional Matters Lawyer</h3>
         <p>
-        Focus on Constitutional Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law
+        Focus on Constitutional Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.
         </p>
         <br />
         {/* <div className="a-2"><a href="/">Read More</a></div> */}
@@ -201,10 +201,9 @@ const Home = () => {
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
           alt="not load..."
         />
-        <h3>Land Matters  Lawyer</h3>
+        <h3>Arbitration Matters Lawyer</h3>
         <p>
-          We are Real Estate Acquisition Lawyers in Mumbai. Land Laws & RERA
-          advisory, Acquisition of land for industrial projects
+          We had an Arbitrator appointed by Chief justice of Bombay High Court and We are the best Arbitration Matters  Lawyers in Aurangabad.
         </p>
         {/* <div className="a-3">
           <a href="/">Read More</a>
@@ -215,9 +214,9 @@ const Home = () => {
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img6.png"
           alt="not load..."
         />
-        <h3>Criminal Matters  Lawyer</h3>
+        <h3>Criminal Matters Lawyer</h3>
         <p>
-         Focus on Criminal matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law
+         Focus on Criminal matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.
         </p>
         {/* <div className="a-4"><a href="/">Read More</a></div> */}
       </div>

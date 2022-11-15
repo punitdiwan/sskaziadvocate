@@ -18,7 +18,7 @@ const Civilmatters = () => {
 
      
     <div class="civil">
-        <p>Advocate S.S. KAZI & Associates is a Civil Matters Lawyers law firm in mumbai,with a focus on civil and corporate matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Civil Matters lawyers in mumbai</p>
+        <p>Advocate S.S. KAZI & Associates is a Civil Matters Lawyers law firm in Aurangabad,with a focus on civil and corporate matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Civil Matters lawyers in Aurangabad,Maharashtra.</p>
         <div class="civil-row">
             <div class="civil-col">
                 <p>Civil matters seeking injunctive relief will be scheduled on a priority basis, consistent with Civil Rule 65, and as soon as practicable whether or not a temporary restraining order has issued.</p>

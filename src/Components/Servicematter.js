@@ -19,7 +19,7 @@ const Servicematter = () => {
 
     
     <div class="civil">
-        <p>Advocate S.S. KAZI & Associates is a Service Matters  Lawyers law firm in mumbai,with a focus on Service Matters  with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Service Matters  lawyers in mumbai</p>
+        <p>Advocate S.S. KAZI & Associates is a Service Matters  Lawyers law firm in Aurangabad, with a focus on Service Matters  with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Service Matters  lawyers in Aurangabad, Maharashtra. </p>
         <div class="civil-row">
             <div class="civil-col">
                 <p>All matter relating to the conditions of his service in connection with the affairs of the educational for:</p>
