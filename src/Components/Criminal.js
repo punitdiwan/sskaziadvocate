@@ -18,14 +18,14 @@ const Criminal = () => {
 
     
     <div class="civil">
-        <p>Advocate S.S. KAZI & Associates is a Criminal Matters Lawyers law firm in mumbai,with a focus on Criminal matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Criminal Matters lawyers in mumbai</p>
+        <p>Advocate S.S. KAZI & Associates is a Criminal Matters Lawyers law firm in Aurangabad, with a focus on Criminal matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We are Criminal Matters lawyers in Aurangabad, Maharashtra .</p>
         <div class="civil-row">
             <div class="civil-col">
                 <p>We provide Criminal Matters  services for:</p>
                 <ul>
                     <li>Quashing of FIR, Charge Sheet,& proceeding.</li>
-                    <li>Anticipatory bail,</li>
-                    <li>Regular bail </li>
+                    <li>Anticipatory bail.</li>
+                    <li>Regular bail. </li>
                     <li>Appeal against conviction & acquittal.</li>
                     <li>All kind of criminal writ petitions, Revisions ,Public interest litigation, contempt petition , Domestic violence, Maintenance etc.</li>
                     

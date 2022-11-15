@@ -16,10 +16,10 @@ const Constitutional = () => {
           <h4>Constitutional Matters Lawyer</h4>
           <p>
             Advocate S.S. KAZI & Associates is a Constitutional Matters Lawyers
-            law firm in mumbai,with a focus on Matter’s under constitution of
+            law firm in Aurangabad, with a focus on Matter’s under constitution of
             India, with a young and well-qualified team of lawyers who have
             acquired expertise in various areas of law. We are Constitutional
-            Matters lawyers in mumbai
+            Matters lawyers in Aurangabad, Maharashtra. 
           </p>
 
           <img

@@ -16,7 +16,7 @@ const Publicmatter = () => {
 <div class="real-estate-col">
   <h4>Public Trust Matters </h4>
   <p>Adv S.S. KAZI  and Associates is a law firm with a focus on Public Trust Matters  with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
-  <p>We are the best Public Trust matters Lawyers in mumbai 
+  <p>We are the best Public Trust matters Lawyers in Aurangabad,Maharashtra . 
   </p>
 
   <img src="https://static.diffen.com/uploadz/a/a8/the-law--1.jpg" alt="" />
