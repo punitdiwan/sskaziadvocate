@@ -351,9 +351,9 @@ const Home = () => {
             <div>
               <p>
                
-		        The most trust worthy legal adviser n professionally clear vision with experienced excellent Associated firm which is presently need of every one in all legal matters.		
+		        The most trust worthy legal adviser n professionally clear vision This office has a group of 3 or 4 lawyers specialist in their fields. They are abreast with the latest trends in court. 		
               </p>
-              <h3>Mr. Siddiqui khusro</h3>
+              <h3>Mr. ARK Rehman</h3>
             </div>
           </div>
           <div className="testimonials-col">
@@ -363,7 +363,7 @@ const Home = () => {
                 
 	       	 If you want to close your case in minimum days, then go to him.
            Timely n clear work.
-           Explains all doubts, sound knowledge in legal things.
+           Explains all doubts with experienced, need of every one in all civil matters.
            I will always refer him.	
               </p>
               <h3>Mr. Adnan Shaikh</h3>
