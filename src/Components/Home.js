@@ -17,7 +17,7 @@ const Home = () => {
   data-bs-ride="carousel"
 >
   <div className="carousel-inner">
-    <div className="carousel-item active">
+    <div className="carousel-item active slide-4">
 
       {/* <div className="img-1"></div> */}
 
@@ -32,7 +32,7 @@ const Home = () => {
         <a href="">Contact With Us</a>
       </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item slide-4">
 
        {/* <div className="img-2"></div>  */}
       <img
@@ -45,6 +45,21 @@ const Home = () => {
         <p>Expert in Constitutional matters| Service matters | Lawyers in Mumbai</p>
         <Link to="/contact">Contact With Us</Link>
       </div>
+    </div>
+    <div className="carousel-item slide-4">
+
+      <img
+        src="img/slide-4.jpeg"
+        className="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div className="carousel-item slide-4">
+      <img
+        src="img/slide-5.jpeg"
+        className="d-block w-100 "
+        alt="..."
+      />
     </div>
   </div>
   <button
@@ -328,18 +343,18 @@ const Home = () => {
             {/* <img src="img/user1.jpg" alt="" /> */}
             <div>
               <p>
-              A very Good Lawyer, who is a good listener, explains everthing to our Satisfaction level, Very Professional, Sound   Indepth knowledge proves 360 degree Legal Aspects. Highly Recommended !!	
+              A very Good Lawyer, who is a good listener, explains everthing to our Satisfaction level, Very Professional, Sound Indepth knowledge proves 360 degree Legal Aspects. 	
               </p>
-              <h3>Mr. Pralhad Tarde</h3>
+              <h3>Mr. Sameer Shaikh</h3>
             </div>
           </div>
           <div className="testimonials-col">
             {/* <img src="img/user2.jpg" alt="" /> */}
             <div>
               <p>
-              He is always prepared to answer your questions, promptly return your calls and keep you updated on the status of your case. Great Experience with Adv  S.S. KAZI
+              He is always prepared to answer your questions, promptly return your calls and keep you updated on the status of your case. Great Experience with  Adv  S.S. KAZI. 
               </p>
-              <h3>Mr. Rushikesh Dhakane</h3>
+              <h3>Mr. Faizyab khan</h3>
             </div>
           </div>
         </div>
@@ -355,7 +370,7 @@ const Home = () => {
                
 		        The most trust worthy legal adviser n professionally clear vision with experienced excellent Associated firm which is presently need of every one in all legal matters.		
               </p>
-              <h3>Mr. Vijay Sawant</h3>
+              <h3>Mr. Siddiqui khusro</h3>
             </div>
           </div>
           <div className="testimonials-col">
@@ -368,7 +383,7 @@ const Home = () => {
            Explains all doubts, sound knowledge in legal things.
            I will always refer him.	
               </p>
-              <h3>Mr. Mangesh Baravkar</h3>
+              <h3>Mr. Adnan Shaikh</h3>
             </div>
           </div>
         </div>
@@ -382,9 +397,10 @@ const Home = () => {
             <div>
               <p>
                 
-		       Adv S.S. KAZI and his team did a great job representing me in property related matter. He is best lawyer for property purchase. I highly recommend Adv S.S. KAZI .	
+		       Adv S.S. KAZI and his team did a great job representing me in property related matter. He is best lawyer for property purchase.One of the best advocate in aurangabad
+           Well qualified I highly Recommended Adv S.S. KAZI .
               </p>
-              <h3>Mr. Anil Sawant</h3>
+              <h3>Mr. Hussain Pathan</h3>
             </div>
           </div>
           <div className="testimonials-col">
@@ -392,9 +408,9 @@ const Home = () => {
             <div>
               <p>
                 
-		            When you seek for legal advice and guidance,Adv S.S. KAZI Sir carefully explain the law as it relates to your case, the legal support available to you and the best course of action to resolve your problem and meet your objective.	 
+		            When you seek for legal advice and guidance, Adv S.S. KAZI Sir carefully explain the law as it relates to your case, the legal support available to you and the best course of action to resolve your problem and meet your objective.	 
               </p>
-              <h3>Mr. Rohit Deshmukh</h3>
+              <h3>Mr. Syed Zahed Ali</h3>
             </div>
           </div>
         </div>

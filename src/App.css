@@ -348,6 +348,10 @@ padding: 10px 0;
   background-repeat: no-repeat;
   background-size: contain;
 }  */
+
+.slide-4 img{
+    height: 82vh;
+}
 @media (max-width:850px){
     .carousel-item img{
         height: 83vh;
