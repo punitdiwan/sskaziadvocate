@@ -13,7 +13,7 @@ const Home = () => {
 
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active slide-4" data-bs-interval="3000">
+    <div class="carousel-item active slide-4" data-bs-interval="4000">
     <img
         src="img/slide-3.jpeg"
         className="d-block w-100"
@@ -21,12 +21,12 @@ const Home = () => {
       />
    
       <div className="img-slide-content">
-        <h1>We Are Best Law Firm Since 1999 at Aurangabad</h1>
+        <h1>We Are Largest Law Firm Since 1999 at Aurangabad</h1>
         <p>Expert in Criminal matters | Civil matters | Constitutional matters | Arbitration matters | Service Matters </p>
         <Link to="/contact">Contact With Us</Link>
       </div>
     </div>
-    <div class="carousel-item slide-4" data-bs-interval="3000">
+    <div class="carousel-item slide-4" data-bs-interval="4000">
     <img
         src="img/slide-1.jpeg"
         className="d-block w-100"
@@ -39,14 +39,14 @@ const Home = () => {
         <Link to="/contact">Contact With Us</Link>
       </div>
     </div>
-    <div class="carousel-item slide-4"  data-bs-interval="2000">
+    <div class="carousel-item slide-4"  data-bs-interval="3000">
     <img
         src="img/slide-4.jpeg"
         className="d-block w-100"
         alt="..."
       />
     </div>
-    <div class="carousel-item slide-4" data-bs-interval="2000">
+    <div class="carousel-item slide-4" data-bs-interval="3000">
     <img
         src="img/slide-5.jpeg"
         className="d-block w-100 "
@@ -93,6 +93,8 @@ const Home = () => {
   </div>
 </div>
 
+
+
 {/* <!-- ---------- Advocate-biodat ------------- --> */}
 
 <div className="advocate">
@@ -101,7 +103,7 @@ const Home = () => {
     <img src="img/mr-kazi.jpeg" alt="" />
     <div className="img-content">
         <h4>Advocate S. S. Kazi</h4>
-        <p>B.A.LL.B.,DLL & LW</p>
+        <p>B.A. LL.B.</p>
       </div>
       <div className="year-exp">
         <h1>23</h1>
@@ -133,7 +135,7 @@ const Home = () => {
             </div>
             <div>
               <i className="fa-solid fa-check"></i>
-              <p>Learn From Our Customern</p>
+              <p>Learn From Our Customer</p>
             </div>
             <div>
               <i className="fa-solid fa-check"></i>
@@ -143,7 +145,7 @@ const Home = () => {
           <div className="support-col support-col-2">
             <div>
               <i className="fa-solid fa-check"></i>
-              <p>Serving 12 Years</p>
+              <p>Serving 23 Years</p>
             </div>
             <div>
               <i className="fa-solid fa-check"></i>
@@ -167,7 +169,8 @@ const Home = () => {
   <div className="area-practice">
     <div className="area-content">
       <h3>Our Area of Practice</h3>
-      <h2>We Are Here To Fight for your Rights With Experience</h2>
+      <h2>We are providing best services for the clients for Supreme Court in all types of matters.The matters in Supreme Court are conducted by Advocate S S Kazi in person and has affiliation with senior counsel for appearing in the matter if required.</h2>
+      <h2>Basically we are providing all services to the clients specifically in High Court Matter’s at Aurangabad, Nagpur & Bombay.</h2>
     </div>
     <div className="area-row">
       <div className="area-col">
@@ -179,35 +182,18 @@ const Home = () => {
         <p>
           We are Civil lawyers in Aurangabad. with a focus on civil and corporate litigation. young and well-qualified team of lawyers, expertise in various areas of law.
         </p>
-        {/* <div className="a-1">
-          <a href="/">Read More</a>
-        </div> */}
       </div>
 
-      <div className="area-col">
+      <div className="area-col area-col-1">
         <img
           src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img5.png"
           alt="not load..."
         />
         <h3>Constitutional Matters Lawyer</h3>
         <p>
-        Focus on Constitutional Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.
+        Advocate S.S. KAZI Focus on Constitutional Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.
         </p>
         <br />
-        {/* <div className="a-2"><a href="/">Read More</a></div> */}
-      </div>
-      <div className="area-col">
-        <img
-          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
-          alt="not load..."
-        />
-        <h3>Arbitration Matters Lawyer</h3>
-        <p>
-          We had an Arbitrator appointed by Chief justice of Bombay High Court and We are the best Arbitration Matters  Lawyers in Aurangabad.
-        </p>
-        {/* <div className="a-3">
-          <a href="/">Read More</a>
-        </div> */}
       </div>
       <div className="area-col">
         <img
@@ -216,9 +202,44 @@ const Home = () => {
         />
         <h3>Criminal Matters Lawyer</h3>
         <p>
-         Focus on Criminal matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.
+        Advocate S.S. KAZI Focus on Criminal matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.
         </p>
-        {/* <div className="a-4"><a href="/">Read More</a></div> */}
+      </div>
+    </div>
+    
+    <div className="area-row">
+    <div className="area-col">
+        <img
+          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
+          alt="not load..."
+        />
+        <h3>Arbitration Matters Lawyer</h3>
+        <p>
+          We had an Arbitrator appointed by Chief justice of Bombay High Court and We are the best Arbitration Matters  Lawyers in Aurangabad.
+        </p>
+      </div>
+
+      <div className="area-col area-col-1">
+        <img
+          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img5.png"
+          alt="not load..."
+        />
+        <h3>Wakf Property Matters Lawyer</h3>
+        <p>
+        Advocate S.S. KAZI law firms provides a complete Legal Services and expert counselor for Wakf Property matters in Aurangabad.
+        </p>
+        <br />
+      </div>
+      
+      <div className="area-col">
+        <img
+          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img6.png"
+          alt="not load..."
+        />
+        <h3>Services Matters Lawyer</h3>
+        <p>
+        Advocate S.S. KAZI & Associatesis is a Service Matters  Lawyers law firm in Aurangabad, All matter relating to the conditions of his Service. 
+        </p>
       </div>
     </div>
   </div>
@@ -434,7 +455,8 @@ const Home = () => {
      </div>
         <div className="contact-no">
           <h3>Contact</h3>
-          <p>Contact Number - 9890903544 </p>
+          <p>Contact Number : +91 98909-03544 </p>
+          <p>Contact Number : +91 72497-77553</p>
           <p>Email id -  legalfighterk@gmail.com</p>
         </div>
         <div className="contact-time">

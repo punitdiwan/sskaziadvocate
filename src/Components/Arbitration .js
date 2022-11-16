@@ -15,11 +15,11 @@ const Arbitration= () => {
   />
   <div class="real-estate-col">
     <h4>Arbitration Matters</h4>
-    <p>Adv S.S. KAZI  and Associates is a law firm with a focus on Arbitration Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law.</p>
+    <p>Adv S.S. KAZI  and Associates is a law firm with a focus on Arbitration Matters with a young and well-qualified team of lawyers who have acquired expertise in various areas of law. We had an Arbitrator appointed by Chief Justice of Bombay High Court.</p>
     <p>We are the best Arbitration Matters  Lawyers in Aurangabad, Maharashtra. 
     </p>
 
-    <img src="https://www.vidhikarya.com/images/blog_images/Arbitration%20and%20Conciliation%20Act.jpg" alt="" />
+    <img src="https://www.vidhikarya.com/images/blog_images/Arbitration%20and%20Conciliation%20Act.jpg" alt="not-found" />
   </div>
 
   <img
@@ -33,6 +33,7 @@ const Arbitration= () => {
       <img src="https://advganeshraykar.com/wp-content/uploads/2021/12/RERA.jpg" alt="" class="img-registr" />
     </div>
     <div class="land-col land-col-2">
+      <p> Arbitration we had an Arbitrator appointed by Chief Justice of Bombay High Court.</p>
       <p>
       Arbitration is a procedure in which a dispute is submitted, by agreement of the parties, to one or more arbitrators who make a binding decision on the dispute.
       </p>

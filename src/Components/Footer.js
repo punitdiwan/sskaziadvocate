@@ -29,8 +29,11 @@ const Footer = () => {
     <div className="footer-col footer-col-2">
       <h4>Our Office</h4>
       <p>S.S. KAZI, 2nd Floor, Yasmeen Complex, Opposite MBC Bank, City Chowk, Buddi lane, Naralibag, Aurangabad, Maharashtra,india 431001</p>
-      <p>Contact Number - +91 9890903544 </p>
-      <p>Phone Number -  02402-324134 </p>
+      <div className='contact-detail'>
+      <p>Contact Number : +91 98909-03544 </p>
+      <p>Contact Number : +91 72497-77553</p>
+      <p>Phone Number :  02402-324134 </p>
+      </div>
       <div className='footer-icon'> 
       <a href="https://www.facebook.com/shahu.kazi.3">
               <i className="fa-brands fa-facebook"></i>

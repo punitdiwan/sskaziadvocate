@@ -24,9 +24,9 @@ const Servicematter = () => {
             <div class="civil-col">
                 <p>All matter relating to the conditions of his service in connection with the affairs of the educational for:</p>
                 <ul>
-                    <li> remuneration (including allowances), pension and other.</li>
-                    <li>Central Government Act. Cites 0 - Cited by 22. Section 2 in the Armed Forces Tribunal Act, 2007 [Complete Act]</li>
-                    <li>Service is the act of providing documents to the required people (usually, the other parties or their lawyers) involved in a legal matter.</li>
+                    <li> remuneration including allowances, pension and other.</li>
+                    <li>Central Government Act. Cites 0 - Cited by 22. Section 2 in the Armed Forces Tribunal Act, 2007 Complete Act</li>
+                    <li>Service is the act of providing documents to the required people usually, the other parties or their lawyers involved in a legal matter.</li>
                     <li>Level of Services - Consultation, communication and approval.</li>
                 </ul>
             </div>
