@@ -528,7 +528,7 @@ padding: 10px 0;
 
 .advocate-col img{
     width: 470px;
-    border-radius: 10px ;
+    border-radius: 10px;
 }
 .img-content{
     text-align: center;
@@ -1089,7 +1089,6 @@ padding: 10px 0;
 }
 
 @media (max-width:350px) {
-  
     .client-row{
         margin-top: 40px;
     }

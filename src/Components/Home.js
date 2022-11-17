@@ -130,7 +130,7 @@ const Home = () => {
       <h1>We Always Fight For Your Justice To Win Case.</h1>
       <p>
       S S Kazi Advocate is the pioneer who established the firm in 1999. 
-      He completed SSC from Saint Francis High School at Aurangabad, then completed graduation in Arts from Government Arts & Science college Aurangabad.Then he stood third in order of Merit from Dr Babasaheb Ambedkar Marathwada university Aurangabad in the year December 1998.
+      He completed SSC from Saint Francis High School at Aurangabad, then completed graduation in Arts from Government Arts & Science college Aurangabad.Then he stood third in order of Merit from Dr Babasaheb Ambedkar Marathwada university Aurangabad LLB in the final year December 1998.
       </p>
       <p>
       He then joined the Chamber/Office of renowned Advocate K. G.Khader and started to appear in the High Court at Aurangabad.
