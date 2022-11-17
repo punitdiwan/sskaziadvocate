@@ -28,7 +28,7 @@ const Footer = () => {
     </div>
     <div className="footer-col footer-col-2">
       <h4>Our Office</h4>
-      <p>S.S. KAZI, 2nd Floor, Yasmeen Complex, Opposite MBC Bank, City Chowk, Buddi lane, Naralibag, Aurangabad, Maharashtra,india 431001</p>
+      <p>S.S. KAZI, 2nd Floor, Yasmeen Complex, Opposite BMC Bank, City Chowk, Aurangabad, Maharashtra,india 431001</p>
       <div className='contact-detail'>
       <p>Contact Number : +91 98909-03544 </p>
       <p>Contact Number : +91 72497-77553</p>
