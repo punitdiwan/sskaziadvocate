@@ -15,7 +15,7 @@ const Home = () => {
   <div class="carousel-inner">
     <div class="carousel-item active slide-4" data-bs-interval="4000">
     <img
-        src="img/slide-3.jpeg"
+        src="img/slide-1.jpeg"
         className="d-block w-100"
         alt="..."
       />
@@ -28,7 +28,7 @@ const Home = () => {
     </div>
     <div class="carousel-item slide-4" data-bs-interval="4000">
     <img
-        src="img/slide-1.jpeg"
+        src="img/slide-2.jpeg"
         className="d-block w-100"
         alt="..."
       />
@@ -41,14 +41,28 @@ const Home = () => {
     </div>
     <div class="carousel-item slide-4"  data-bs-interval="3000">
     <img
-        src="img/slide-4.jpeg"
+        src="img/slide-3.jpeg"
         className="d-block w-100"
         alt="..."
       />
     </div>
     <div class="carousel-item slide-4" data-bs-interval="3000">
     <img
+        src="img/slide-4.jpeg"
+        className="d-block w-100 "
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item slide-4" data-bs-interval="3000">
+    <img
         src="img/slide-5.jpeg"
+        className="d-block w-100 "
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item slide-4" data-bs-interval="3000">
+    <img
+        src="img/slide-6.jpeg"
         className="d-block w-100 "
         alt="..."
       />
