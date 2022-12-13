@@ -8,9 +8,8 @@ const Disclamer = () => {
       <Navbar/>
   <div class="disclamer">
   <div class="disclamer-row">
-   <img src="https://advganeshraykar.com/wp-content/uploads/2022/01/disclaimer.jpg" alt="" />
+   <img src="./img/Disclaimer.jpg" alt="" />
   <p>In accordance with the Bar Council of India regulations, law firms in India are not allowed to advertise or solicit work. By entering in the website, you expressly acknowledge having read, understood and accepted the Terms & Conditions enumerated below.</p>
-
   <ul>
     <li>There has been no advertisement, invitation, solicitation or inducement of any sort whatsoever by the firm or the advocates and staff who are a part of the firm.</li>
     <li>Access to our website is being provided only upon your specific request.</li>

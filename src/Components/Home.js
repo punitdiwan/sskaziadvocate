@@ -274,7 +274,7 @@ const Home = () => {
   <div className="working-row">
     <div className="working-col">
       <img
-        src="https://advganeshraykar.com/wp-content/uploads/elementor/thumbs/Court-phb7lx8etplj4c8mp2r52ap14bmx962hnt3rjm3i8g.jpg"
+        src="./img/advo.jpeg"
         alt=""
       />
     </div>
