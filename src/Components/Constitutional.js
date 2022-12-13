@@ -39,7 +39,7 @@ const Constitutional = () => {
         <div class="land-row">
           <div class="land-col">
             <img
-              src="https://advganeshraykar.com/wp-content/uploads/2021/12/Court.png"
+              src="./img/advo.jpeg"
               alt=""
             />
           </div>

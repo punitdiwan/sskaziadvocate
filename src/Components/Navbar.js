@@ -57,9 +57,9 @@ const Navbar = () => {
               <img src="img/adv.sskazi-logo.jpeg" alt="" />
             </a>
           </div>     
-          <button onClick={()=>setShow(!show)} className="menu-icon" >{show ? <i className="fa-solid fa-times"></i>: <i className=" menu-icon fa-solid fa-bars"></i>}
+          
+          <button onClick={()=>setShow(!show)} className="menu-icon"> {show ? <i className="fa-solid fa-times"></i> : <i className="menu-icon fa-solid fa-bars"></i>}
           </button>
-
           <div className={show ? "navbar-col-mobile" : "navbar-col-r"}>  
             <ul  >
               <li onClick={()=>setShow(!show)}>
