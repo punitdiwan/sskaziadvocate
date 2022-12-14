@@ -189,7 +189,7 @@ const Home = () => {
     <div className="area-row">
       <div className="area-col">
         <img
-          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
+          src="./img/build.png"
           alt="not load..."
         />
         <h3>Civil Matters  Lawyer</h3>
@@ -200,7 +200,7 @@ const Home = () => {
 
       <div className="area-col area-col-1">
         <img
-          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img5.png"
+          src="./img/book.png"
           alt="not load..."
         />
         <h3>Constitutional Matters Lawyer</h3>
@@ -211,7 +211,7 @@ const Home = () => {
       </div>
       <div className="area-col">
         <img
-          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img6.png"
+          src="./img/build.png"
           alt="not load..."
         />
         <h3>Criminal Matters Lawyer</h3>
@@ -224,7 +224,7 @@ const Home = () => {
     <div className="area-row">
     <div className="area-col">
         <img
-          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img10.png"
+          src="./img/build.png"
           alt="not load..."
         />
         <h3>Arbitration Matters Lawyer</h3>
@@ -235,7 +235,7 @@ const Home = () => {
 
       <div className="area-col area-col-1">
         <img
-          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img5.png"
+          src="./img/book.png"
           alt="not load..."
         />
         <h3>Wakf Property Matters Lawyer</h3>
@@ -247,7 +247,7 @@ const Home = () => {
       
       <div className="area-col">
         <img
-          src="https://advganeshraykar.com/wp-content/uploads/2021/03/bosa-lawyer-img6.png"
+          src="./img/build.png"
           alt="not load..."
         />
         <h3>Services Matters Lawyer</h3>

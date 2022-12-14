@@ -34,7 +34,7 @@ const Revenue = () => {
                 </ul>
             </div>
             <div class="civil-col civil-col-2" >
-                <img src="https://advganeshraykar.com/wp-content/uploads/2022/01/revenue-litigation-Lawyer.jpeg" alt="" />
+                <img src="./img/np" alt="" />
             </div>
         </div>
     </div>

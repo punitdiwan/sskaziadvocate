@@ -33,12 +33,12 @@ const Legaldraft = () => {
 
       <div class="land-law">
         <div class="land-row">
-          <div class="land-col">
+          {/* <div class="land-col">
             <img
-              src="https://advganeshraykar.com/wp-content/uploads/2021/12/Court.png"
+              src="./img/legal.jpg"
               alt=""
             />
-          </div>
+          </div> */}
           <div class="land-col">
             <p>
             Legal drafting is a method of creating well-structured documents such as petitions, memorandums, contracts, wills, statutes, etc that are legally binding on the parties to such documents
